@@ -7,5 +7,7 @@ public class DiceGame{
         System.out.println("Die 1:" + rand1);
         System.out.println("Die 2:" + rand2);
         System.out.println("Total value: " + sum);
+        if(sum > 7)System.out.println("You won");
+        else System.out.println("You lost");
     }
 }
